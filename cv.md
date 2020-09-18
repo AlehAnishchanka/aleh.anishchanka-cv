@@ -34,3 +34,7 @@ SQL online sql-ex.ru
 * code example:\
 code examples are here <https://github.com/AlehAnishchanka/task_report_bitrix>
 
+
+* languages: 
+    * english - A2 strong.
+    * polish - B1
