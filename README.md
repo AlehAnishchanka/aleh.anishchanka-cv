@@ -1,3 +1,3 @@
 # aleh.anishchanka-cv
-https://AlehAnishchanka.github.io/rsschool-cv/cv
-https://AlehAnishchanka.github.io/rsschool-cv/
+https://AlehAnishchanka.github.io/aleh.anishchanka-cv/cv
+https://AlehAnishchanka.github.io/aleh.anishchanka-cv/
