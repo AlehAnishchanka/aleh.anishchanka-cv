@@ -7,7 +7,7 @@
     >email:                <kit88888888@gmail.com>\
     >mob.phone             (+375 29) 520 82 03\
     >telegram              (+375 29) 520 82 03\
-    >viber                 (+375 29) 520 82 03\
+    >viber                 (+375 29) 520 82 03
 
 * about me:\
 I work as programmer **PHP** for 4 year in STiM (Brest). I serve CMS system **Bitrix24** in our company.\
@@ -15,10 +15,10 @@ For 3 years I worked as administrator, business analyst and programmer in one fa
 Last tear I work as programmer. My last task is Servis Desk IT Department of our company.\
 It include **chat-bot** as enter point, **web-form** ( 8 complicated dinamic form in 1 writen in **Vue.js** ),\
 api for recive and transmit data ( **php**, **sql** ) , and backend ( **php**, **sql**, **oop** ).\
-It is bilded in cms **Bitrix24** and used it standart functionality for this project.\
+It is bilded in cms **Bitrix24** and used it standart functionality for this project.
 
 * my skills: **PHP**, **SQL**, **JS**, **Vue.js** , **cms Bitrix24**\
-* also I use **HTML**, **CSS** and **bootstrap-vue** in my work\
+* also I use **HTML**, **CSS** and **bootstrap-vue** in my work
 
 * education:\
 Minsk Radio-engineering institute (BGUIR) 1987 \
