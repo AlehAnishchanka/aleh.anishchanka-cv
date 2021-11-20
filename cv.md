@@ -10,12 +10,12 @@
     >viber                 (+375 29) 520 82 03
 
 * about me:\
-I work as programmer **PHP** for 4 year in STiM (Brest). I serve CMS system **Bitrix24** in our company.\
+I work as programmer **PHP** for 4 year for STiM (Brest). I serve CMS system **Bitrix24** for our company.\
 For 3 years I worked as administrator, business analyst and programmer in one face.\
-Last tear I work as programmer. My last task is Servis Desk IT Department of our company.\
-It include **chat-bot** as enter point, **web-form** ( 8 complicated dinamic form in 1 writen in **Vue.js** ),\
+Last year I work as programmer. My last project is Servis Desk IT Department of our company.\
+It includes **chat-bot** as enter point, **web-form** ( 8 complicated dinamic form in 1, writen with **Vue.js** ),\
 api for recive and transmit data ( **php**, **sql** ) , and backend ( **php**, **sql**, **oop** ).\
-It is bilded in cms **Bitrix24** and used it standart functionality for this project.
+This application is bilded into cms **Bitrix24** and uses standart functionality **Bitrix24**.
 
 * my skills: **PHP**, **SQL**, **JS**, **Vue.js** , **cms Bitrix24**\
 * also I use **HTML**, **CSS** and **bootstrap-vue** in my work
@@ -33,5 +33,5 @@ SQL online sql-ex.ru
     * polish - B1
 
 * additionaly about me:\
-I am easily trained person. I try permanently improve my skills.
-I am stress-resistant and not a conflict person. I know how to work in a team.
+I am easily trained person. I permanently improve my skills.
+I am stress-resistant and not conflict person. I know how to work in a team.
