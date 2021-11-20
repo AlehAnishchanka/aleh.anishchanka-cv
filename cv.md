@@ -17,7 +17,7 @@ It includes **chat-bot** as enter point, **web-form** ( 8 complicated dinamic fo
 api for recive and transmit data ( **php**, **sql** ) , and backend ( **php**, **sql**, **oop** ).\
 This application is bilded into cms **Bitrix24** and uses standart functionality **Bitrix24**.
 
-* my skills: **PHP**, **SQL**, **JS**, **Vue.js** , **cms Bitrix24**\
+* my skills: **PHP**, **SQL**, **JS**, **Vue.js** , **cms Bitrix24**
 * also I use **HTML**, **CSS** and **bootstrap-vue** in my work
 
 * education:\
