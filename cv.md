@@ -10,12 +10,13 @@
     >viber                 (+375 29) 520 82 03
 
 * about me:\
-I have worked as a **PHP** programmer for 4 year for STiM (Brest). I maintain and support CMS system **Bitrix24**\
-for our company. During the first 3 years I worked as administrator, business analyst and programmer, rolled into one.\
-Since last year my role is focused on being a programmer only. My latest project is Servis Desk IT Department\
-of our company. It includes **chat-bot** as enter point, **web-form** ( 8 complicated dinamic form in 1, writen with\
-**Vue.js** ), api to recive and transmit data ( **php**, **sql** ) , and backend ( **php**, **sql**, **oop** ).\
-This application is bilt into cms **Bitrix24** and uses standard functionality **Bitrix24**.
+I have been working as a **PHP** developer at ARTBYTE.AGENCY since February 2022.\
+I currently focusing on the development and customization of CMS **Bitrix24** components and modernization of that CMS\ 
+in accordance with the clints' requirements. I also develop various reports as regards such CMS. I have experience \
+in chatbot development, as well as integration of B24 with other systems.\
+I worked as a **PHP** programmer at STiM for 4 years (2018-2022). My core task was to customize and maintain CMS system **Bitrix24**\
+for the company. During the first 3 years I worked as programmer, as well as administrator and business analyst, all rolled into one.\
+Since 2021 my role was focused on being a programmer only.\
 
 * my skills: **PHP**, **SQL**, **JS**, **Vue.js** , **cms Bitrix24**
 * also I use **HTML**, **CSS** and **bootstrap-vue** in my work
