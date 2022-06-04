@@ -11,7 +11,7 @@
 
 * about me:\
 I have been working as a **PHP** developer at ARTBYTE.AGENCY since February 2022.\
-I currently focusing on the development and customization of CMS **Bitrix24** components and modernization of that CMS\ 
+I am currently focusing on the development and customization of CMS **Bitrix24** components and modernization of that CMS\ 
 in accordance with the clints' requirements. I also develop various reports as regards such CMS. I have experience \
 in chatbot development, as well as integration of B24 with other systems.\
 I worked as a **PHP** programmer at STiM for 4 years (2018-2022). My core task was to customize and maintain CMS system **Bitrix24**\
