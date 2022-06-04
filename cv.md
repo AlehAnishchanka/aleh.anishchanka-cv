@@ -28,7 +28,7 @@ PHP courses ATEVI 2019\
 JS online courses hexlet\
 SQL online sql-ex.ru 
 
-* languages:\ 
+* languages:\
     * russian - native speaker
     * english - A2 - B1
     * polish - B1
