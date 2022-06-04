@@ -16,7 +16,7 @@ in accordance with the clints' requirements. I also develop various reports as r
 in chatbot development, as well as integration of B24 with other systems.\
 I worked as a **PHP** programmer at STiM for 4 years (2018-2022). My core task was to customize and maintain CMS system **Bitrix24**\
 for the company. During the first 3 years I worked as programmer, as well as administrator and business analyst, all rolled into one.\
-Since 2021 my role was focused on being a programmer only.\
+Since 2021 my role was focused on being a programmer only.
 
 * my skills: **PHP**, **SQL**, **JS**, **Vue.js** , **cms Bitrix24**
 * also I use **HTML**, **CSS** and **bootstrap-vue** in my work
