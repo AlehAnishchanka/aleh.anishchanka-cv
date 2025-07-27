@@ -1,20 +1,421 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    min-width: 1500px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+    padding: 20px;
 }
-.center {
-    position: relative;
-    width: 50%;
-    background-color: rgb(236, 238, 240);
-    margin: auto;
-    padding-left: 5%;
-    padding-top: 2%;
-    padding-bottom: 1%;
+
+/* Main container */
+.cv-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
-.photo {
-    padding-left: 10%;
+
+/* Header section */
+.cv-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 40px;
 }
-.contacts {
-    position: absolute;
-    left: 50%;
-    top: 10%;
+
+.header-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.profile-section {
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.profile-info h1.name {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info h2.name-cyrillic {
+    font-size: 1.3rem;
+    font-weight: 400;
+    opacity: 0.9;
+    margin-bottom: 10px;
+}
+
+.profile-info .title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+    opacity: 0.95;
+}
+
+.profile-info .location {
+    font-size: 1rem;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Contact section */
+.contact-section h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 0;
+}
+
+.contact-item i {
+    width: 20px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.contact-item a {
+    color: white;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.contact-item a:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+/* Content sections */
+.content-section {
+    padding: 35px 40px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.content-section:last-child {
+    border-bottom: none;
+}
+
+.content-section h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.content-section h3 i {
+    color: #667eea;
+    font-size: 1.2rem;
+}
+
+/* Experience section */
+.experience-item {
+    margin-bottom: 30px;
+    padding: 25px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    border-left: 4px solid #667eea;
+}
+
+.experience-item:last-child {
+    margin-bottom: 0;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.experience-header h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.period {
+    background: #667eea;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.company {
+    font-size: 1.1rem;
+    color: #5a6c7d;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.description ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.description li {
+    margin-bottom: 5px;
+}
+
+/* Projects section */
+.project-item {
+    margin-bottom: 25px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border-left: 4px solid #28a745;
+}
+
+.project-item:last-child {
+    margin-bottom: 0;
+}
+
+.project-item h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.project-item ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/* Skills section */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.skill-category h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.skills-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill-tag {
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: transform 0.2s ease;
+}
+
+.skill-tag:hover {
+    transform: translateY(-2px);
+}
+
+.skill-tag.primary {
+    background: #667eea;
+    color: white;
+}
+
+.skill-tag.secondary {
+    background: #e9ecef;
+    color: #495057;
+}
+
+/* Education section */
+.education-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.education-item {
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border-left: 4px solid #ffc107;
+}
+
+.education-item h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.education-item p {
+    color: #6c757d;
+}
+
+/* Languages section */
+.languages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.language-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.language {
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.level {
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.level.native {
+    background: #28a745;
+    color: white;
+}
+
+.level.intermediate {
+    background: #ffc107;
+    color: #212529;
+}
+
+.level.conversational {
+    background: #17a2b8;
+    color: white;
+}
+
+/* About section */
+.about-content p {
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.personal-qualities {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.quality-tag {
+    padding: 8px 16px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: transform 0.2s ease;
+}
+
+.quality-tag:hover {
+    transform: translateY(-2px);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    .cv-container {
+        border-radius: 0;
+    }
+    
+    .cv-header {
+        padding: 25px;
+    }
+    
+    .header-content {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    
+    .profile-section {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .content-section {
+        padding: 25px 20px;
+    }
+    
+    .experience-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .skills-grid,
+    .languages-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .profile-info h1.name {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-info h1.name {
+        font-size: 1.5rem;
+    }
+    
+    .profile-info h2.name-cyrillic {
+        font-size: 1.1rem;
+    }
+    
+    .contact-section h3 {
+        font-size: 1.1rem;
+    }
+    
+    .content-section h3 {
+        font-size: 1.3rem;
+    }
 }
